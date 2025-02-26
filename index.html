@@ -3,14 +3,50 @@
   <head>
     <title>Tuna State University</title>
     <link rel="icon" type="image/jpg" sizes="96x96" href="/img/tuna.jpg">
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #2F4F4F;
+      }
+      li {
+        float: left;
+      }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 12px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #696969;
+      }
+      .footer {
+        position: fixed;
+        left: 10px;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+      }
+    </style>
   </head>
+  
 <body>
 <body style="background-color:AliceBlue;">
+<ul>
+  <li><a class="active" href="/index.html">Home</a></li>
+  <li><a href="/food.html">Food Menu</a></li>
+  <li><a href="/beyond.html">The Beyond</a></li>
+</ul>
 <h1>Tuna State University</h1>
-<p>Link to the dinner menu: <a href="https://www.truongjacobs.com/food.html"> Click me</a></p>
-  <p>Under Construction: <a href="https://www.truongjacobs.com/beyond.html">Travel to the beyond.</a></p>
+<p>Link to the dinner menu: <a href="/food.html"> Click me</a></p>
+  <p>Under Construction: <a href="/beyond.html">Travel to the beyond.</a></p>
+<div class="footer">
+  <p><a href="/privacy.html">Privacy Policy.</a></p>
+</div>
 </body>
-<footer>
-  <a href="https://www.truongjacobs.com/privacy.html">Privacy Policy.</a>
-</footer>
+  
 </html>
