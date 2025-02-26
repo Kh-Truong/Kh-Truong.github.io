@@ -11,16 +11,47 @@
         }
         canvas
         {
-            <!-- background:url("grass.png") no-repeat; -->
             background-size: cover;
             border: 2px solid black;
         }
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #2F4F4F;
+      }
+      li {
+        float: left;
+      }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 12px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #696969;
+      }
+      .footer {
+        position: fixed;
+        left: 10px;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+      }
     </style>
 </head>
 <body>
     <body style="background-color:AliceBlue;">
+    <ul>
+  <li><a class="active" href="/index.html">Home</a></li>
+  <li><a href="/food.html">Food Menu</a></li>
+  <li><a href="/beyond.html">The Beyond</a></li>
+</ul>
     <h1>Meow meow meow</h1>
-    <canvas width="550" height="400"></canvas>
+    <canvas width="425" height="400"></canvas>
     <script>
         var canvas = document.querySelector("canvas");
         var drawingSurface = canvas.getContext("2d");
