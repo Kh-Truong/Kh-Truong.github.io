@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tuna State University</title>
+    <link rel="icon" type="image/jpg" sizes="96x96" href="/img/tuna.jpg">
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #2F4F4F;
+      }
+      li {
+        float: left;
+      }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 12px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #696969;
+      }
+      .footer {
+        position: fixed;
+        left: 10px;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+      }
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th, td {
+        padding: 5px;
+      }
+    </style>
+  </head>
+  
+<body>
+<body style="background-color:AliceBlue;">
+<ul>
+  <li><a class="active" href="/index.html">Home</a></li>
+  <li><a href="/food.html">Food Menu</a></li>
+  <li><a href="/beyond.html">The Beyond</a></li>
+</ul>
+<h1>Past Dinner List</h1>
+  <p>Please find the current dinner plans below. They do occasionally get updated as ingredients shift, so check back regularly. For questions or suggestions, email foodlist.filter735@passmail.net.</p>
+
+      <p>3 MAR 25 - 9 MAR 25</p>
+  <table>
+    <tr>
+      <th>Day</th>
+      <th>Item</th>
+      <th>Comments</th>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td>Chicken Pot Pie</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>Shrimp Scampi</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td>Pork Enchilada</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td>Chicken Fried Rice</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <td>Leftovers</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Saturday</td>
+      <td>TBD</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sunday</td>
+      <td>TBD</td>
+      <td></td>
+    </tr>
+    
+  </table>
+</body>
+</html>
